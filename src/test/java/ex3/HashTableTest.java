@@ -17,7 +17,7 @@ class HashTableTest {
             hashTable.put(String.valueOf(inserts), String.valueOf(inserts));
         }
         Assertions.assertEquals(inserts, hashTable.count());
-        
+
     }
 
     @org.junit.jupiter.api.Test
